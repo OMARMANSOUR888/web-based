@@ -57,3 +57,7 @@ E:\20190204\web-based\WebApplication2\obj\Debug\WebApplication2.csproj.CoreCompi
 E:\20190204\web-based\WebApplication2\obj\Debug\WebApplication2.csproj.CopyComplete
 E:\20190204\web-based\WebApplication2\obj\Debug\WebApplication2.dll
 E:\20190204\web-based\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Batoo\OneDrive\Documents\GitHub\web-based\WebApplication2\obj\Debug\WebApplication2.csproj.AssemblyReference.cache
+C:\Users\Batoo\OneDrive\Documents\GitHub\web-based\WebApplication2\obj\Debug\WebApplication2.csproj.CoreCompileInputs.cache
+C:\Users\Batoo\OneDrive\Documents\GitHub\web-based\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Batoo\OneDrive\Documents\GitHub\web-based\WebApplication2\obj\Debug\WebApplication2.pdb
