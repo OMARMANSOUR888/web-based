@@ -70,6 +70,8 @@
     <Content Include="Registration.aspx" />
     <Content Include="Registration_page.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Home_page.aspx" />
+    <Content Include="SignIn_page.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -86,6 +88,20 @@
     </Compile>
     <Compile Include="Registration_page.aspx.designer.cs">
       <DependentUpon>Registration_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home_page.aspx.cs">
+      <DependentUpon>Home_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home_page.aspx.designer.cs">
+      <DependentUpon>Home_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn_page.aspx.cs">
+      <DependentUpon>SignIn_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn_page.aspx.designer.cs">
+      <DependentUpon>SignIn_page.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
