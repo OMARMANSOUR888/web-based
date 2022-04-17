@@ -67,11 +67,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="19f3d49fab9e2856c6a9b46ec6de73cdb1f1e24afe7c885e6241e62b57f436bb._RI_V_TTW_.jpg" />
+    <Content Include="1b1c4d4c14c6479cbbbbd9cbefa72385.png" />
+    <Content Include="3dc7d4e52d0564b2e34e64c397dc71e28bf744f7a61ad478e3094c3b4eb33af2._RI_V_TTW_.jpg" />
     <Content Include="BrowseMovies.aspx" />
+    <Content Include="CartPageaspx.aspx" />
+    <Content Include="download.jpg" />
     <Content Include="HomePage.aspx" />
+    <Content Include="imgonline-com-ua-resize-F2P7agHHewe.jpg" />
     <Content Include="Registeration.aspx" />
     <Content Include="SignIn.aspx" />
+    <Content Include="unnamed.png" />
     <Content Include="Web.config" />
+    <Content Include="DescriptionPage.aspx" />
+    <Content Include="ملصق_فلم_دونكيرك_%282017%29.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BrowseMovies.aspx.cs">
@@ -80,6 +89,13 @@
     </Compile>
     <Compile Include="BrowseMovies.aspx.designer.cs">
       <DependentUpon>BrowseMovies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CartPageaspx.aspx.cs">
+      <DependentUpon>CartPageaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CartPageaspx.aspx.designer.cs">
+      <DependentUpon>CartPageaspx.aspx</DependentUpon>
     </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
@@ -103,9 +119,17 @@
     <Compile Include="SignIn.aspx.designer.cs">
       <DependentUpon>SignIn.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DescriptionPage.aspx.cs">
+      <DependentUpon>DescriptionPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DescriptionPage.aspx.designer.cs">
+      <DependentUpon>DescriptionPage.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Source-Code-2011-motarjam.webp" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

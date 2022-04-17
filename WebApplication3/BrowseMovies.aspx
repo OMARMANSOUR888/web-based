@@ -13,9 +13,6 @@
         margin-left : 300px;       
         }
            */
-        .auto-style2 {
-            width: 255px;
-        }
         .auto-style3 {
             width: 304px;
         }
@@ -23,27 +20,52 @@
             margin-left :10px;
 
         }
+        .button1{
+           background-color: white;
+         color: black;
+         border: 2px solid red;
+         border-radius: 8px;
+
+        }
         .omar1{
             margin-left :300px;
 
         }
-        .auto-style5 {
-            width: 101px;
-        }
         .mansour{
             margin-left :50px;
         }
-        .auto-style6 {
-            width: 290px;
-        }
         .auto-style7 {
-            width: 290px;
-            height: 295px;
+            height: 221px;
         }
-        .auto-style8 {
-            height: 295px;
+        .omar12{
+            margin-left:150px;
         }
-    </style>
+        .omar123{
+            margin-left:50px;
+        }
+        .auto-style18 {
+            width: 37px;
+        }
+        .auto-style10 {
+            width: 101px;
+        }
+        .auto-style11 {
+            width: 247px;
+        }
+        .auto-style19 {
+            width: 193px;
+        }
+        .auto-style20 {
+            width: 100%;
+            height: 324px;
+        }
+        .auto-style4 {
+            height: 95px;
+        }
+        .auto-style16 {
+            width: 91%;
+        }
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -51,103 +73,219 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style2">
-                    <asp:TextBox ID="TextBox1" runat="server" Width="359px">                                               Search</asp:TextBox>
+                <td class="auto-style18">
+                    <asp:TextBox ID="TextBox1" runat="server" Width="359px">                                              Search</asp:TextBox>
                 </td>
-                <td class="auto-style5">
-                    <asp:HyperLink ID="HyperLink5" runat="server" CssClass = "omar" NavigateUrl="~/Home_page.aspx">Home</asp:HyperLink>
+                <td class="auto-style10">
+                    <asp:HyperLink ID="HyperLink5" CssClass="omar" runat="server" NavigateUrl="~/HomePage.aspx">Home</asp:HyperLink>
+                </td>
+                <td class="auto-style11">
+                    <asp:HyperLink ID="HyperLink6" CssClass="mansour" runat="server" NavigateUrl="~/BrowseMovies.aspx">Browse Movies</asp:HyperLink>
+                </td>
+                <td class="auto-style19">
+                    <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/SignIn.aspx">Login</asp:HyperLink>
                 </td>
                 <td>
-                    <asp:HyperLink ID="HyperLink6" CssClass ="mansour" runat="server">Browse Movies</asp:HyperLink>
-                </td>
-                <td>
-                    <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/SignIn_page.aspx">Login</asp:HyperLink>
-                </td>
-                <td>
-                    <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/Registration_page.aspx">Register</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/Registeration.aspx">Register</asp:HyperLink>
                 </td>
             </tr>
         </table>
         </div>
-        <table class="auto-style1">
-            <tr>
-                <td colspan="4">
-                    <asp:Label ID="Label1" runat="server" CssClass ="omar1" Font-Size="28pt" Text="Choose From Our Movies "></asp:Label>
-                </td>
-            </tr>
+        <table class="auto-style20">
             <tr>
                 <td class="auto-style7">
-                    <asp:Image ID="Image1" runat="server" Height="291px" Width="300px" />
-                </td>
-                <td class="auto-style8">
-                    <asp:Image ID="Image17" runat="server" Height="291px" Width="300px" />
-                </td>
-                <td class="auto-style8">
-                    <asp:Image ID="Image18" runat="server" Height="291px" Width="300px" />
-                </td>
-                <td class="auto-style8">
-                    <asp:Image ID="Image19" runat="server" Height="291px" Width="300px" />
+                    <asp:Label ID="Label1" CssClass="omar12" runat="server" Text="Search Term :"></asp:Label>
+                    <br />
+                    <asp:TextBox ID="TextBox2" CssClass="omar12" runat="server" Height="48px" Width="962px"></asp:TextBox>
+                &nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button1" runat="server" CssClass="button1" Height="52px" Text="Search" Width="118px" />
                 </td>
             </tr>
             <tr>
-                <td class="auto-style6">&nbsp;</td>
+                <td class="auto-style4">
+                    <hr , size="3", color="grey" class="auto-style16">  </td>
+            </tr>
+            </table>
+        <table class="auto-style1">
+            <tr>
+                <td>
+                    <asp:ImageButton ID="ImageButton2" CssClass="omar123" runat="server" Height="279px" Width="228px" ImageUrl="~/19f3d49fab9e2856c6a9b46ec6de73cdb1f1e24afe7c885e6241e62b57f436bb._RI_V_TTW_.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton3" runat="server" Height="279px" Width="228px" ImageUrl="~/3dc7d4e52d0564b2e34e64c397dc71e28bf744f7a61ad478e3094c3b4eb33af2._RI_V_TTW_.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton4" runat="server" Height="279px" Width="228px" ImageUrl="~/download.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton5" runat="server" Height="279px" Width="228px" ImageUrl="~/unnamed.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ImageButton ID="ImageButton6" CssClass="omar123" runat="server" Height="279px" Width="228px" ImageUrl="~/19f3d49fab9e2856c6a9b46ec6de73cdb1f1e24afe7c885e6241e62b57f436bb._RI_V_TTW_.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton7" runat="server" Height="279px" Width="228px" ImageUrl="~/3dc7d4e52d0564b2e34e64c397dc71e28bf744f7a61ad478e3094c3b4eb33af2._RI_V_TTW_.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton8" runat="server" Height="279px" Width="228px" ImageUrl="~/download.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton9" runat="server" Height="279px" Width="228px" ImageUrl="~/unnamed.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ImageButton ID="ImageButton10" CssClass="omar123" runat="server" Height="279px" Width="228px" ImageUrl="~/19f3d49fab9e2856c6a9b46ec6de73cdb1f1e24afe7c885e6241e62b57f436bb._RI_V_TTW_.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton11" runat="server" Height="279px" Width="228px" ImageUrl="~/3dc7d4e52d0564b2e34e64c397dc71e28bf744f7a61ad478e3094c3b4eb33af2._RI_V_TTW_.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton12" runat="server" Height="279px" Width="228px" ImageUrl="~/download.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton13" runat="server" Height="279px" Width="228px" ImageUrl="~/unnamed.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ImageButton ID="ImageButton14" CssClass="omar123" runat="server" Height="279px" Width="228px" ImageUrl="~/19f3d49fab9e2856c6a9b46ec6de73cdb1f1e24afe7c885e6241e62b57f436bb._RI_V_TTW_.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton15" runat="server" Height="279px" Width="228px" ImageUrl="~/3dc7d4e52d0564b2e34e64c397dc71e28bf744f7a61ad478e3094c3b4eb33af2._RI_V_TTW_.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton16" runat="server" Height="279px" Width="228px" ImageUrl="~/download.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton17" runat="server" Height="279px" Width="228px" ImageUrl="~/unnamed.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ImageButton ID="ImageButton18" CssClass="omar123" runat="server" Height="279px" Width="228px" ImageUrl="~/19f3d49fab9e2856c6a9b46ec6de73cdb1f1e24afe7c885e6241e62b57f436bb._RI_V_TTW_.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton19" runat="server" Height="279px" Width="228px" ImageUrl="~/3dc7d4e52d0564b2e34e64c397dc71e28bf744f7a61ad478e3094c3b4eb33af2._RI_V_TTW_.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton20" runat="server" Height="279px" Width="228px" ImageUrl="~/download.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton21" runat="server" Height="279px" Width="228px" ImageUrl="~/unnamed.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ImageButton ID="ImageButton22" CssClass="omar123" runat="server" Height="279px" Width="228px" ImageUrl="~/19f3d49fab9e2856c6a9b46ec6de73cdb1f1e24afe7c885e6241e62b57f436bb._RI_V_TTW_.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton23" runat="server" Height="279px" Width="228px" ImageUrl="~/3dc7d4e52d0564b2e34e64c397dc71e28bf744f7a61ad478e3094c3b4eb33af2._RI_V_TTW_.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton24" runat="server" Height="279px" Width="228px" ImageUrl="~/download.jpg" />
+                </td>
+                <td>
+                    <asp:ImageButton ID="ImageButton25" runat="server" Height="279px" Width="228px" ImageUrl="~/unnamed.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style6">
-                    <asp:Image ID="Image20" runat="server" Height="291px" Width="300px" />
-                </td>
-                <td>
-                    <asp:Image ID="Image21" runat="server" Height="291px" Width="300px" />
-                </td>
-                <td>
-                    <asp:Image ID="Image22" runat="server" Height="291px" Width="300px" />
-                </td>
-                <td>
-                    <asp:Image ID="Image23" runat="server" Height="291px" Width="300px" />
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style6">&nbsp;</td>
+                <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style6">
-                    <asp:Image ID="Image35" runat="server" Height="291px" Width="300px" />
-                </td>
-                <td>
-                    <asp:Image ID="Image34" runat="server" Height="291px" Width="300px" />
-                </td>
-                <td>
-                    <asp:Image ID="Image32" runat="server" Height="291px" Width="300px" />
-                </td>
-                <td>
-                    <asp:Image ID="Image33" runat="server" Height="291px" Width="300px" />
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style6">&nbsp;</td>
+                <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style6">
-                    <asp:Image ID="Image28" runat="server" Height="291px" Width="300px" />
-                </td>
-                <td>
-                    <asp:Image ID="Image29" runat="server" Height="291px" Width="300px" />
-                </td>
-                <td>
-                    <asp:Image ID="Image30" runat="server" Height="291px" Width="300px" />
-                </td>
-                <td>
-                    <asp:Image ID="Image31" runat="server" Height="291px" Width="300px" />
-                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
         </table>
     </form>
