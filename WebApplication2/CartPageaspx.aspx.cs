@@ -7,9 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication3
 {
-    public partial class BrowseMovies : System.Web.UI.Page
+    public partial class CartPageaspx : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

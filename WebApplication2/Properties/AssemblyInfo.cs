@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WebApplication2")]
+[assembly: AssemblyTitle("WebApplication3")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WebApplication2")]
-[assembly: AssemblyCopyright("Copyright ©  2022")]
+[assembly: AssemblyCompany("HP Inc.")]
+[assembly: AssemblyProduct("WebApplication3")]
+[assembly: AssemblyCopyright("Copyright © HP Inc. 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0131d9e9-2873-470e-8c95-1feeb7b2de1d")]
+[assembly: Guid("68dace1e-f5a7-47e1-ad89-94700d63fae6")]
 
 // Version information for an assembly consists of the following four values:
 //
